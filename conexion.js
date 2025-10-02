@@ -21,4 +21,6 @@ const conectarDB = () => {
     })
 }
 
-export default conectarDB
+export default {conectarDB,
+    database
+}
