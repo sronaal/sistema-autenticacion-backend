@@ -8,7 +8,7 @@ export const validacionFormRegistrarUsuario = [
     body('apellido').notEmpty().withMessage('El apellido es requerido')
     .trim().escape(),
 
-    body('email').isEmail().withMessage('El correo electrónico es inválido')
+    body('email').notEmpty().withMessage('El correo electronico es requerido').isEmail().withMessage('El correo electrónico es inválido')
     .trim().escape().normalizeEmail(),
 
     body('password').isLength({min: 3}).withMessage('La contraseña debe tener minimo 3 caracteres')
