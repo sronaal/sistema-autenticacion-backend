@@ -8,11 +8,7 @@ Pensado para integrarse fácilmente con cualquier frontend (React, Angular, Vue)
 
 ## 🏷️ Badges
 
-![Node.js](https://img.shields.io/badge/Node.js-16.x-green?logo=node.js&logoColor=white&style=flat)  
-![Express](https://img.shields.io/badge/Express-^4.18.2-000000?logo=express&logoColor=white&style=flat)  
-![JWT](https://img.shields.io/badge/JWT-enabled-orange?logo=jwt&logoColor=white&style=flat)  
-![MongoDB](https://img.shields.io/badge/MongoDB-6.x-47A248?logo=mongodb&logoColor=white&style=flat)  
-![License MIT](https://img.shields.io/badge/license-MIT-green?style=flat)  
+![Node.js](https://img.shields.io/badge/Node.js-16.x-green?logo=node.js&logoColor=white&style=flat)  ![Express](https://img.shields.io/badge/Express-^4.18.2-000000?logo=express&logoColor=white&style=flat)  ![JWT](https://img.shields.io/badge/JWT-enabled-orange?logo=jwt&logoColor=white&style=flat)  ![MongoDB](https://img.shields.io/badge/MongoDB-6.x-47A248?logo=mongodb&logoColor=white&style=flat)  ![License MIT](https://img.shields.io/badge/license-MIT-green?style=flat)  
 
 ---
 
