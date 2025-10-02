@@ -1,24 +1,32 @@
 import { User } from "../models/User.js"
 
-export class UserDao{
+class UserDao {
 
+    constructor() { }
 
-    registrarUsuario(usuario){
+    registrarUsuario(usuario) {
 
 
         return new Promise((resolve, reject) => {
 
             User.create(usuario)
-            .then(() => {
-                
-                return resolve("Usuario Creado")
-            })
-            .catch((error) => {
+                .then(() => {
 
-                return reject(error)
-            })
+                    return resolve("Usuario Creado")
+                })
+                .catch((error) => {
+
+                    return reject(error)
+                })
 
         })
     }
+
+    buscarEmail(correo) {
+
+        return User.findOne({ where: { correo: correo } })
+    }
 }
 
+
+export default UserDao
