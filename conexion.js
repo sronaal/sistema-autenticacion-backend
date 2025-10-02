@@ -12,15 +12,18 @@ const database = new Sequelize(config.database.database, config.database.user, c
 const conectarDB = () => {
 
     database.authenticate()
-    .then(() => {
-        console.log("CONEXION DB EXITOSA")
-    })
-    .catch((error) => {
-        
-        console.log(`Error: ${error}`)
-    })
+        .then(() => {
+            console.log("CONEXION DB EXITOSA")
+
+            //return database.sync({ force: false })
+        })
+        .catch((error) => {
+
+            console.log(`Error: ${error}`)
+        })
 }
 
-export default {conectarDB,
+export default {
+    conectarDB,
     database
 }

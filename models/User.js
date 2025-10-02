@@ -21,7 +21,7 @@ export const User = conexion.database.define('Usuario', {
         allowNull: null
     },
 
-    email:{
+    correo:{
         type: DataTypes.STRING,
         allowNull:null
     },
